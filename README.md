@@ -8,13 +8,13 @@
 * Open a pull request to this repository
 * Submit on canvas a question and observation, how long you spent, and a link to your pull request
 
-## Resources  
+## Resources
   * [fs module docs](https://nodejs.org/api/fs.html)
 
-## Configuration 
+## Configuration
 Configure the root of your repository with the following files and directories. Thoughfully name and organize any aditional configuration or module files.
 * **README.md** - contains documentation
-* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file 
+* **.gitignore** - contains a [robust](http://gitignore.io) `.gitignore` file
 * **.eslintrc** - contains the course linter configuratoin
 * **.eslintignore** - contains the course linter ignore configuration
 * **package.json** - contains npm package config
@@ -24,7 +24,7 @@ Configure the root of your repository with the following files and directories. 
 * **assets/** - contains the text files used by the program
 * **\_\_test\_\_/** - contains unit tests
 
-## Feature Tasks  
+## Feature Tasks
 #### Reader Module
 In the lib/ directory create a reader.js module that exports a single function. The reader module should take an array of three file paths and resolve a mapped array of strings loaded from each file using an error-first callback. The string data should be in the same order as the file path data (mapped). If an error occurs it should immediatly reject the error using the callback and stop execution.
 
@@ -32,7 +32,7 @@ In the lib/ directory create a reader.js module that exports a single function. 
 * On a failure the reader module should invoke the callback with an error `callback(error)`
 * On success the reader module should invoke the callback with null as the first paramiter, and the result as the second paramiter `callback(null, result)`
 
-## Testing  
+## Testing
 #### Reader Module Tests
 * Use BDD `describe` and `test` methods to define discriptive tests and increase readablity
 * Each `test` callback should aim to test a small well defined feature of a function
@@ -42,7 +42,7 @@ In the lib/ directory create a reader.js module that exports a single function. 
 ##  Documentation
 In your README.md describe the exported values of each module you have defined. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
 
-## Bonus 1pt
+## Stretch
 Write the reader function recursivly so that it will be able to support 0 or more paths.
 
 
