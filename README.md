@@ -30,7 +30,7 @@ In the lib/ directory create a reader.js module that exports a single function. 
 
 * The reader module should have the function signature `(paths, callback) => undefined`
 * On a failure the reader module should invoke the callback with an error `callback(error)`
-* On success the reader module should invoke the callback with null as the first paramiter, and the result as the second paramiter `callback(null, result)`
+* On success the reader module should invoke the callback with null as the first parameter, and the result as the second parameter `callback(null, result)`
 
 ## Testing
 #### Reader Module Tests
@@ -40,7 +40,7 @@ In the lib/ directory create a reader.js module that exports a single function. 
 * Write tests to ensure the reader function correctly resolves mapped string data for an array of file paths
 
 ##  Documentation
-In your README.md describe the exported values of each module you have defined. Every function description should include it's airty (expected number of paramiters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+In your README.md describe the exported values of each module you have defined. Every function description should include it's airty (expected number of parameters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
 
 ## Stretch
 Write the reader function recursivly so that it will be able to support 0 or more paths.
