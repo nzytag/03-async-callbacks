@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint solution.test.js"
   },
   "author": "hector norza",
   "license": "MIT",
