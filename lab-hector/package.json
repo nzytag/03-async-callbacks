@@ -1,0 +1,17 @@
+{
+  "name": "lab-hector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "solution.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "hector norza",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.2"
+  }
+}
