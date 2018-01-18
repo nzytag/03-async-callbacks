@@ -5,41 +5,41 @@ node: true,
 commonjs: true,
 jest: true,
 es6: true
-  },
+},
 globals: {
 err: true,
 req: true,
 res: true,
 next: true
-  },
-# extends: "eslint:recommended",
+},
+extends: "eslint:recommended",
 parserOptions: {
 sourceType: "module"
-  },
+},
 rules: {
 no-console: "off",
 indent: [
-      "error",
-      2
-    ],
+"error",
+2
+],
 quotes: [
-      "error",
-      "single",
-      {
+"error",
+"single",
+{
 allowTemplateLiterals: true
-      }
-    ],
+}
+],
 comma-dangle: [
-      "error",
-      "always-multiline"
-    ],
+"error",
+"always-multiline"
+],
 semi: [
-      "error",
-      "always"
-    ],
+"error",
+"always"
+],
 linebreak-style: [
-      "error",
-      "unix"
-    ]
-  }
+"error",
+"unix"
+]
+}
 }
