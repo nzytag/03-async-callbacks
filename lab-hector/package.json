@@ -1,0 +1,18 @@
+{
+  "name": "lab-hector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reader.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint reader.test.js"
+  },
+  "author": "hector norza",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22.1.2"
+  }
+}
